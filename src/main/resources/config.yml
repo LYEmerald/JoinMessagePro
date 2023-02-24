@@ -1,0 +1,71 @@
+welcome:
+  enable: true
+  #是否启用
+  fadeIn: 20
+  #渐入时长
+  stay: 40
+  #显示时长
+  fadeOut: 20
+  #淡出时长
+  title: JoinMessagePro
+  #主标题
+  subtitle: 2023新年快乐
+  #副标题
+  message: 欢迎来到本服务器
+  #消息
+  tip: 欢迎来到本服务器
+  #提示
+#欢迎消息部分
+
+join:
+  enable: true
+  #是否启用
+  message: 玩家%player%加入了游戏
+  #加入消息
+#设置玩家加入消息部分
+
+quit:
+  enable: true
+  #是否启用
+  message: 玩家%player%退出了游戏
+  #退出消息
+#设置玩家退出消息部分
+
+Toast:
+  enable: true
+  #是否启用
+  title: "HELLO WORLD"
+  #主标题
+  content: "欢迎来到本服务器 %player%"
+  #副标题
+#顶部弹窗部分
+
+join_broadcast:
+  enable: true
+  #是否启用
+  message: "§f%player% §3加入了本大厅"
+  #全服广播消息
+quit_broadcast:
+  enable: true
+  #是否启用
+  message: "§f%player% §3离开了本大厅"
+  #全服广播消息
+#全服广播消息部分(TIP)
+
+form:
+  enable: false
+  #是否启用
+  TaskTime: 10
+  #延迟发送时长
+  title: "HELLO WORLD"
+  #表格标题
+  content: "欢迎来到本服务器\n祝你游戏愉快"
+  #表格内容
+  button: 确定
+  #按钮内容
+#JoinForm部分
+form_command:
+  command: "say HelloWorld"
+  #执行命令
+#JoinForm命令部分
+

@@ -1,0 +1,6 @@
+name: JoinMessagePro
+main: net.emeraldgames.JoinMessagePro
+version: "1.0.1"
+author: EmeraldGames Team
+api: ["1.0.0"]
+description: JoinMessagePro for Nukkit!
