@@ -64,8 +64,4 @@ form:
   button: 确定
   #按钮内容
 #JoinForm部分
-form_command:
-  command: "say HelloWorld"
-  #执行命令
-#JoinForm命令部分
 
